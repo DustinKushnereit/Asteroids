@@ -53,5 +53,6 @@ Each asteroid killed spawns two in it's place.
 The networking code isn't finished as James and I ran out of time during the semester to work on this game.
 Becuase of this, the game becomes quickly desynced. But it is possible to play this game locally,
 without any networking. Simply launch the server and then launch 2 clients. After the game starts,
-close one of the clients and continue playing with one keyboard on one machine.
-The game will still work and play fine with two players.
+minimize one of the clients and continue playing with one keyboard on one machine.
+The game will still work and play fine with two players. You just need to leave both clients open and
+play on one of them.

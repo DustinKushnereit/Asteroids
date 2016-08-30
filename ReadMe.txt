@@ -64,6 +64,7 @@ Ex:
 
      Client Two: 301 192.168.0.1 200
 	 
+	 
 
 The networking code isn't finished as James and I ran out of time during the semester to work on this game.
 Becuase of this, the game becomes quickly desynced. But it is possible to play this game locally,

@@ -1,6 +1,6 @@
 James Potvin And Dustin Kushnereit
 
-Game Description
+Game Description:
 
 With the arcade classic Asteroids having existed for a few decades now, people have
 reproduced it time and time again. In an effort to look new and improved, this version
@@ -9,7 +9,7 @@ original Asteroids. Just shoot all the incoming asteroids to increase your point
 and move on the next level. If you or your partner loses all their lives, the game is over
 and you'll have to try again.
 
-How to play
+How to play:
 
 Player One:
 Move Up: W
@@ -29,7 +29,7 @@ Shoot: Number 4
 Rotate Left: Number 5
 Rotate Right: Number 6
 
-Unique Features and Parts of the Game
+Unique Features and Parts of the Game:
 
 Each player shoots 4 bullets at once. The bullets fire in 4 different directions based on the players
 rotation. This is inteded to make the players work together and rely on each other more.
@@ -50,8 +50,24 @@ Each asteroid killed spawns two in it's place.
 
 !IMPORTANT!
 
+The game has to built using Cmake and run using Visual Studio.
+
+In order to play the game, you must use command arguments. 
+For the server it must have the server's port. 
+For the Clients, they must have their port number, the IP address of the server, and the server's port number.
+
+Ex:
+
+     Server: 200
+
+     Client One: 300 192.168.0.1 200
+
+     Client Two: 301 192.168.0.1 200
+	 
+
 The networking code isn't finished as James and I ran out of time during the semester to work on this game.
 Becuase of this, the game becomes quickly desynced. But it is possible to play this game locally,
 without any networking. Simply launch the server and then launch 2 clients. After the game starts,
-close one of the clients and continue playing with one keyboard on one machine.
-The game will still work and play fine with two players.
+minimize one of the clients and continue playing with one keyboard on one machine.
+The game will still work and play fine with two players. You just need to leave both clients open and
+play on one of them.
